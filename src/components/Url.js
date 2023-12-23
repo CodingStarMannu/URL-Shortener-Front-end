@@ -29,7 +29,7 @@ export default function Url() {
         const response = await fetch('http://localhost:3000/url/shorten', {
             method: 'POST',
             headers: {  
-              'Content-Type': 'application/x-www-form-urlencoded',
+                'Content-Type': 'application/json',
                'Authorization': `Bearer ${authToken}` 
             },
         body: JSON.stringify({
