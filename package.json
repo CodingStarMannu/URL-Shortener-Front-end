@@ -2,7 +2,7 @@
   "name": "front_end",
   "version": "0.1.0",
   "private": true,
-  "proxy":"https://accredian-assignment-pxzo.onrender.com",
+  "proxy":"https://url-shortener-henr.onrender.com",
   "dependencies": {
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
