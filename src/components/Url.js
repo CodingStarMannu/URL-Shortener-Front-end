@@ -26,7 +26,7 @@ export default function Url() {
     try {
         const authToken = sessionStorage.getItem('authToken');
         console.log("authToken:", authToken);
-        const response = await fetch('http://localhost:3000/url/shorten', {
+        const response = await fetch('http://localhost:8000/url/shorten', {
             method: 'POST',
             headers: {  
               'Content-Type': 'application/x-www-form-urlencoded',
